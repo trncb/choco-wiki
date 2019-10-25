@@ -8,7 +8,7 @@
  `choco list -lo`.
 
  If you want to know what has available upgrades, use
- `choco upgrade <pkg|all> -whatif` or [[`choco outdated`|Commandsoutdated]].
+ `choco upgrade <pkg|all> -whatif` or [`choco outdated`](CommandsOutdated).
 
 <!-- TOC -->
 

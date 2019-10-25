@@ -4,7 +4,7 @@
 
 **NOTE:** Update has been deprecated and will be removed/replaced in version
  1.0.0 with something that performs the functions of updating package
- indexes.  Please use [[`choco upgrade`|Commandsupgrade]] instead.
+ indexes.  Please use [`choco upgrade`](CommandsUpgrade) instead.
 
 <!-- TOC -->
 

@@ -3,7 +3,7 @@
 # Upgrade Command (choco upgrade)
 
 Upgrades a package or a list of packages. Some may prefer to use `cup`
- as a shortcut for [[`choco upgrade`|Commandsupgrade]]. If you do not have a package
+ as a shortcut for [`choco upgrade`](CommandsUpgrade). If you do not have a package
  installed, upgrade will install it.
 
 **NOTE:** 100% compatible with older Chocolatey client (0.9.8.x and below)
@@ -29,7 +29,7 @@ Upgrades a package or a list of packages. Some may prefer to use `cup`
 **NOTE:** `all` is a special package keyword that will allow you to upgrade
  all currently installed packages.
 
-Skip upgrading certain packages with [[`choco pin`|Commandspin]] or with the option
+Skip upgrading certain packages with [`choco pin`](CommandsPin) or with the option
  `--except`.
 
 **NOTE:** [Chocolatey Pro](https://chocolatey.org/compare) / Business automatically synchronizes with

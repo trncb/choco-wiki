@@ -34,7 +34,7 @@ This is a listing of all of the different things you can pass to choco.
  * [[setapikey|CommandsSetapikey]] - retrieves or saves an apikey for a particular source (alias for apikey)
  * [[apikey|CommandsApikey]] - retrieves or saves an apikey for a particular source
  * [[unpackself|CommandsUnpackself]] - have chocolatey set itself up
- * [[version|CommandsVersion]] - [DEPRECATED] will be removed in v1 - use [[`choco outdated`|Commandsoutdated]] or `cup <pkg|all> -whatif` instead
+ * [[version|CommandsVersion]] - [DEPRECATED] will be removed in v1 - use [`choco outdated`](CommandsOutdated) or `cup <pkg|all> -whatif` instead
  * [[update|CommandsUpdate]] - [DEPRECATED] RESERVED for future use (you are looking for upgrade, these are not the droids you are looking for)
  * [[support|CommandsSupport]] - provides support information
  * [[download|CommandsDownload]] - downloads packages - optionally internalizing all remote resources
@@ -100,9 +100,9 @@ based on choco not receiving things you think you are passing to it.
  * For consistency, always use `choco`, not `choco.exe`. Never use
    shortcut commands like `cinst` or `cup`.
  * Always have the command as the first argument to `choco. e.g.
-   [[`choco install`|Commandsinstall]], where [[`install`|Commandsinstall]] is the command.
+   [`choco install`](CommandsInstall), where [`install`](CommandsInstall) is the command.
  * If there is a subcommand, ensure that is the second argument. e.g.
-   `choco source list`, where `source` is the command and [[`list`|Commandslist]] is the
+   `choco source list`, where `source` is the command and [`list`](CommandsList) is the
    subcommand.
  * Typically the subject comes next. If installing packages, the
    subject would be the package names, e.g. `choco install pkg1 pkg2`.
@@ -137,8 +137,8 @@ based on choco not receiving things you think you are passing to it.
  * If you are building PowerShell scripts, you can most likely just
    simply use apostrophes surrounding option values, e.g.
    `--source='internal_server'`.
- * Prefer upgrade to install in scripts. You can't [[`install`|Commandsinstall]] to a newer
-   version of something, but you can [[`choco upgrade`|Commandsupgrade]] which will do both
+ * Prefer upgrade to install in scripts. You can't [`install`](CommandsInstall) to a newer
+   version of something, but you can [`choco upgrade`](CommandsUpgrade) which will do both
    upgrade or install (unless switched off explicitly).
  * If you are sharing the script with others, pass `--source` to be
    explicit about where the package is coming from. Use full link and

@@ -3,7 +3,7 @@
 # List/Search Command (choco list)
 
 Chocolatey will perform a search for a package local or remote. Some
- may prefer to use [[`clist`|Commandslist]] as a shortcut for [[`choco list`|Commandslist]].
+ may prefer to use [`clist`](CommandsList) as a shortcut for [`choco list`](CommandsList).
 
 **NOTE:** 100% compatible with older Chocolatey client (0.9.8.x and below)
  with options and switches. In most cases you can still pass options

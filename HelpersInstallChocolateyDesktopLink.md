@@ -22,7 +22,7 @@ method as this has been deprecated.
 
 ## Notes
 
-Deprecated in favor of [[`Install-ChocolateyShortcut`|HelpersInstallChocolateyShortcut]].
+Deprecated in favor of [`Install-ChocolateyShortcut`](HelpersInstallChocolateyShortcut).
 If this errors, such as it will if being installed under the local
 SYSTEM account, it will display a warning instead of failing a package
 installation.

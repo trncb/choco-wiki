@@ -4,7 +4,7 @@
 
 Pin a package to suppress upgrades.
 
-This is especially helpful when running [[`choco upgrade`|Commandsupgrade]] for all
+This is especially helpful when running [`choco upgrade`](CommandsUpgrade) for all
  packages, as it will automatically skip those packages. Another
  alternative is `choco upgrade --except="pkg1,pk2"`.
 
